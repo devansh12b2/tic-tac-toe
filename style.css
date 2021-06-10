@@ -1,6 +1,6 @@
 body{
 	background-color:darkblue;
-  background-image: url(/images/heading\ bg.gif);
+  background-image: url(/images/heading\ bg.gif) ;
   background-repeat: no-repeat;
 	background-attachment: fixed;
   background-size: cover;
@@ -8,9 +8,15 @@ body{
 .select{
   text-align: center;
   margin-bottom: 50px;
-  font-size: large;
+  font-size: 40px;
   color:blue;
   text-decoration: wavy;
+}
+option{
+  font-size: 35px;
+}
+select{
+  font-size: 30px;
 }
 
 
@@ -21,12 +27,12 @@ auto template for center alignment
   display: flex;
 }
 .game-container {
-  margin-top: 3%;
+  margin: 0px 450px;
     display: grid;
     grid-template-columns: auto auto auto;
     position: absolute;
-    margin-left: 35%;
-    top: 20%;
+    /*margin-left: 35%;*/
+    
 
 }
 h1{
@@ -55,11 +61,12 @@ user-select for disable text highlight
 }
 
 .restart {
-    font-size: 20px;
-    padding: 5px;
-    margin-top:30%;
-    margin-left: 46%;
-    display: flex;
+    font-size:25px;
+    padding: 7px;
+    margin-top:400px;
+    margin-left: 578px;
+    display: inline-block;
+    ;
 }
 
 /* Remove outline border to look like an tic tac toe board
@@ -77,5 +84,5 @@ user-select for disable text highlight
     border-bottom: none;
 }
 @media screen and (max-width: 750px){
-  .restart
+  
 }

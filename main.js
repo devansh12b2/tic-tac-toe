@@ -128,10 +128,10 @@ function endGame(winner) {
         cells[i].removeEventListener('click', cellClick);
     }
     if (winner !== null) {
-        setTimeout(() => alert(`Congratulations! ${winner} WINNNN`), 0);
+        setTimeout(() => { alert(`Congratulations! ${winner} WINNNN :D`);}, 500);
 
     } else {
-        setTimeout(() => alert(`It's a tie`), 0);
+        setTimeout(() => { aler(`It's a tie`);}, 500);
     }
 }
 
