@@ -17,6 +17,9 @@ body{
 /* Settings grid layout for container and position
 auto template for center alignment
 */
+.opt{
+  display: flex;
+}
 .game-container {
   margin-top: 3%;
     display: grid;
@@ -56,6 +59,7 @@ user-select for disable text highlight
     padding: 5px;
     margin-top:30%;
     margin-left: 46%;
+    display: flex;
 }
 
 /* Remove outline border to look like an tic tac toe board
@@ -73,5 +77,5 @@ user-select for disable text highlight
     border-bottom: none;
 }
 @media screen and (max-width: 750px){
-  
+  .restart
 }
