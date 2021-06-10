@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="/images/giphy.gif" style="filter: invert(100);" type="image/x-icon">
+    <title>Tic tac toe|Home</title>
+</head>
+
+<body >
+<h1>Tic Tac Toe </h1>
+<div class="select">
+<hr>
+
+<p> Play with:
+    <select onchange="AI=this.value">
+        <option value="false">Human</option>
+        <option value="true">Computer</option>
+    </select></p>
+	<hr></div>
+    <div class="game-container">
+        <div id="c00" class="cell"></div>
+        <div id="c01" class="cell"></div>
+        <div id="c02" class="cell"></div>
+        <div id="c10" class="cell"></div>
+        <div id="c11" class="cell"></div>
+        <div id="c12" class="cell"></div>
+        <div id="c20" class="cell"></div>
+        <div id="c21" class="cell"></div>
+        <div id="c22" class="cell"></div>
+		
+    </div>
+	
+	
+    <button class="restart" onclick="restart()">Restart</button><hr>
+	
+	
+	
+    
+    <script src="main.js"></script>
+</body>
+
+</html>
