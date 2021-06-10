@@ -1,9 +1,9 @@
 body{
 	background-color:darkblue;
   background-image: url(/images/heading\ bg.gif) ;
-  background-repeat: no-repeat;
+  background-repeat:no-repeat;
 	background-attachment: fixed;
-  background-size: cover;
+  background-size:cover;
 }
 .select{
   text-align: center;
@@ -39,6 +39,7 @@ h1{
 text-align: center;
 color: snow;
 margin-right: auto;
+font-size: 45px;
 }
 
 /* Settings for individual cells in grid
@@ -84,5 +85,5 @@ user-select for disable text highlight
     border-bottom: none;
 }
 @media screen and (max-width: 750px){
-  
+  .game-container{margin: 0px 200px;}
 }
