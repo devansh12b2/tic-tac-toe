@@ -131,7 +131,7 @@ function endGame(winner) {
         setTimeout(() => { alert(`Congratulations! ${winner} WINNNN :D`);}, 500);
 
     } else {
-        setTimeout(() => { aler(`It's a tie`);}, 500);
+        setTimeout(() =>  alert(`It's a tie`), 500);
     }
 }
 

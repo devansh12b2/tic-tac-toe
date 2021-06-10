@@ -1,6 +1,6 @@
 body{
-	background-color:darkblue;
-  background-image: url(/images/heading\ bg.gif) ;
+	background-color:aqua;
+  
   background-repeat:no-repeat;
 	background-attachment: fixed;
   background-size:cover;
@@ -68,6 +68,9 @@ user-select for disable text highlight
     margin-left: 578px;
     display: inline-block;
     ;
+}
+.restart:hover{
+  color: blue;
 }
 
 /* Remove outline border to look like an tic tac toe board
