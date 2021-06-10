@@ -72,3 +72,6 @@ user-select for disable text highlight
 #c20, #c21, #c22 {
     border-bottom: none;
 }
+@media screen and (max-width: 750px){
+  
+}
