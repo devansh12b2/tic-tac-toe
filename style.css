@@ -85,5 +85,7 @@ user-select for disable text highlight
     border-bottom: none;
 }
 @media screen and (max-width: 750px){
-  .game-container{margin: 0px 200px;}
+  .game-container{margin: 0px 150px;}
+  .select{font-size: 20px;}
+  select{font-size: 15px;}
 }
