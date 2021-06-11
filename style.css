@@ -5,14 +5,14 @@ body{
 	background-attachment: fixed;
   background-size:cover;
 }
-.select{
+.select,.title{
   text-align: center;
   margin-bottom: 50px;
   font-size: 40px;
   color:blue;
   text-decoration: wavy;
 }
-option{
+option,.options{
   font-size: 35px;
 }
 select{

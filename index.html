@@ -12,8 +12,15 @@
 <body style="background-image: url(/images/background.gif); " >
 <h1>Tic Tac Toe </h1>
 <div class="select">
+    <hr>
+    <p>Select which you want to be?
+          <select onchange="PL=this.value">
+            <option value= 1>player O</option>
+            <option value= -1>player X</option> 
+        </select></p>
+      </div>
+<div class="select">
 <hr>
-
 <p> Play with:
     <select onchange="AI=this.value">
         <option value="false">Human</option>
